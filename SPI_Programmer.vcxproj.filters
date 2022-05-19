@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SPI_Programmer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SPI_ProgrammerDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\usb_device.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="easylogging++.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="usb2spi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CABOUTDLG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SPI_Programmer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SPI_ProgrammerDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="easylogging++.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CABOUTDLG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SPI_Programmer.rc">
+      <Filter>资源</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SPI_Programmer.rc2">
+      <Filter>资源</Filter>
+    </None>
+    <None Include="log.conf">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SPI_Programmer.ico">
+      <Filter>资源</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源</Filter>
+    </Image>
+    <Image Include="res\iconok.ico">
+      <Filter>资源</Filter>
+    </Image>
+    <Image Include="res\iconng.ico">
+      <Filter>资源</Filter>
+    </Image>
+    <Image Include="res\icon3.ico">
+      <Filter>资源</Filter>
+    </Image>
+    <Image Include="res\CSOT.ico">
+      <Filter>资源</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
